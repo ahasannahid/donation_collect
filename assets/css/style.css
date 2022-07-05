@@ -1,0 +1,45 @@
+/* fonts family
+font-family: 'Roboto', sans-serif;
+ fonts family */
+ /* common css start */
+ body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   display: inline-block;
+ }
+/* common css end */
+ .banner{
+    /* background-image: url(../images/banner.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+ }
+ .banner h1{
+   margin: 0px 0px;
+   font-size: 60px;
+   color: white;
+   text-align: center;
+   padding-top: 150px;
+ }
+ .banner p{
+   color: white;
+   width: 40%;
+   margin: 20px auto;
+   text-align: center;
+   line-height: 30px;
+ }
+ .banner a{
+   background-color: tomato;
+   padding: 15px 25px;
+   margin-left: 600px;
+   border-radius: 5px;
+ }
+
+ 
