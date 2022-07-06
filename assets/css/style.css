@@ -38,10 +38,10 @@ font-family: 'Roboto', sans-serif;
 /* common css end */
 /* banner START */
  .banner{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 100vh;
  }
  .banner h1{
    font-size: 60px;
@@ -142,4 +142,28 @@ button{
    margin-left: 20px;
 }
 /* donate plan end */
- 
+/* Blog section start */
+.blog{
+   display: flex;
+   margin-bottom: 100px;
+}
+.blog img{
+   width: 80%;
+   height: 100%;
+   padding-left:70px;
+}
+.blog .content{
+   padding-top: 50px;
+}
+.blog p{
+   font-weight: 300;
+}
+.how-to-contribute{
+   background-color: tomato;
+   padding: 15px 25px;
+   border-radius: 5px;
+}
+.blog1{
+   margin-bottom: 100px;
+}
+/* Blog section end */
