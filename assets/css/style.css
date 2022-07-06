@@ -2,6 +2,9 @@
 font-family: 'Roboto', sans-serif;
  fonts family */
  /* common css start */
+ *{
+   box-sizing: border-box;
+ }
  body{
     margin: 0px;
     padding: 0px;
@@ -13,16 +16,34 @@ font-family: 'Roboto', sans-serif;
    font-weight: 400;
    display: inline-block;
  }
+ .container{
+   width: 75%;
+   margin: auto;
+ }
+ .fs{
+   font-size: 50px;
+ }
+ .lh{
+   line-height: 25px;
+ }
+ h1,h2,h3,h4,h5,h6{
+   margin: 0px;
+ }
+ .w-100{
+   width: 100%;
+ }
+ img{
+   display: block;
+ }
 /* common css end */
+/* banner START */
  .banner{
-    /* background-image: url(../images/banner.jpg); */
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
  }
  .banner h1{
-   margin: 0px 0px;
    font-size: 60px;
    color: white;
    text-align: center;
@@ -33,7 +54,6 @@ font-family: 'Roboto', sans-serif;
    width: 40%;
    margin: 20px auto;
    text-align: center;
-   line-height: 30px;
  }
  .banner a{
    background-color: tomato;
@@ -41,5 +61,85 @@ font-family: 'Roboto', sans-serif;
    margin-left: 600px;
    border-radius: 5px;
  }
-
+/* banner end */
+/* donate start */
+.donate{
+   width: 50%;
+   margin: auto;
+   margin-top: 100px;
+}
+.donate .donate-content{
+   text-align: center;
+}
+.donate .donate-amount{
+   display: flex;
+   justify-content: center;
+}
+.donate .donate-amount .amount{
+   display: flex;
+   margin-left: 15px;
+   font-size: 30px;
+   padding: 30px 10px;
+   background-color: #FAFAFA;
+   border-radius: 5px;
+   opacity: 0.7;
+   font-weight: bold;
+   /* box-shadow: 1px 1px 5px; */
+}
+input{
+   border: none;
+   width: 50%;
+   text-align: center;
+   margin-left: 200px;
+   margin-top: 50px;
+}
+button{
+   display: inline-block;
+   margin-left: 300px;
+   margin-top: 15px;
+   padding: 10px;
+   background-color: tomato;
+   border: none;
+   border-radius: 5px;
+}
+/* donate end */
+/* donate plan start */
+.donate-plan{
+   width: 50%;
+   margin: auto;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+.donate-plan .title{
+   text-align: center;
+}
+.plan .donate-content{
+   display: flex;
+   margin-bottom: 100px;
+}
+.food{
+   text-align: justify;
+   background-color: #EDF5F6;
+   padding: 15px;
+}
+.plan h2{
+   margin: 30px 0px 10px 0px;
+}
+.shelter{
+   text-align: justify;
+   background-color: #FFEEEE;
+   padding: 15px;
+   margin-left: 20px;
+}
+.education img{
+   height: 50px;
+   width: 50px;
+}
+.education{
+   text-align: justify;
+   background-color: #FFF4D6;
+   padding: 15px;
+   margin-left: 20px;
+}
+/* donate plan end */
  
